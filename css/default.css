@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/*css*/
+
+body{
+	min-width:1200px;					/*이걸 설정하지 않으면 화면을 줄였을 때 이미지가 냐오지 않음*/
+	font-family: 'AritaDotum', sans-serif;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,dd{
+    margin:0;
+}
+
+img{
+	outline: none;
+	border: 0; 
+}
+
+a{
+    text-decoration:none;
+    color:#333;
+}
+    
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;           
+}
+
+.inner{
+    width:1200px;
+    margin:0 auto;
+}
+
+.cf:after{
+    content:"";				/*after를 위한 속성*/
+    display:block;			/*after를 위한 속성*/
+    clear:both;				/*양쪽 마진을 없애주는 cf의 주된 기능*/
+}

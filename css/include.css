@@ -1,0 +1,217 @@
+@charset "utf-8";
+
+#header{}
+#header h1{
+	/*float: left;
+	line-height: 100px;
+    width:225px;
+    height:34px;               
+    background: url(../images/common/logo.jpg) no-repeat;
+    text-indent: -9999px;    
+    top:15px;
+	margin-top: 40px;*/
+}
+
+
+#header h1 a{}
+
+
+.hTop{
+	/*background: #000;
+	height:40px;
+	line-height: 40px;
+	font-size: 12px;*/
+	background: #222;
+	font-size: 12px;
+	height:40px;
+	line-height: 40px;
+}
+
+.hTop a{
+	color: #fff;
+	display: block;
+	padding: 0 20px; 
+	border-right: 1px solid #111;
+	border-left: 1px solid #111;
+}
+
+.lang{
+	/*float: left;
+	margin-left: 20px;*/
+	float: left;
+}
+
+.lang a{
+	/*color: #fff;*/
+	
+}
+
+.util{
+	/*float: right;*/
+	float: right;
+}
+
+.util li{
+	/*float: left;
+	margin-left: 60px;*/
+	float: left;
+	
+}
+
+.util li:last-child a{
+	padding-right: 0;
+}
+
+.util li a{
+	/*color: #fff;*/
+	border-right: 0;
+}
+
+.util li img{
+	margin-left: 10px;
+	
+}
+
+.hBtm{
+	height: 100px;
+	line-height: 100px;
+}
+.hBtm h1{
+	background: url(../images/common/logo.jpg) no-repeat;
+	text-indent: -9999px;
+	display: block;
+	width: 180px;				/*영역을 줄이면 그림이 잘릴 것. 백그라운드사이즈를 조절해 줄 것.*/
+	background-size: 100%;		/*100%로 하면 완벽하게 그림이 나올 것.*/
+	float: left;
+	background-position: center;	/*또는 background 뒤에 center center를 써도 된다.*/
+}
+
+.hBtm h1 a{
+	display: block;
+}
+
+
+.gnb{
+	/*line-height: 30px;
+	float:right;*/
+	float:right;
+}
+.gnb li{
+	/*float: left;
+	padding: 45px 30px;*/
+	float: left;
+	padding:0 30px;
+}
+
+.gnb li:last-child{
+	/*padding-right: 0;*/
+	padding-right: 0;
+}
+
+.gnb li a{
+	/*font-weight: bold;
+	font-family: serif;*/
+	color: #333;
+}
+
+
+
+
+/*footer*/
+
+#footer{
+	background: #1e1e1e;
+	position: relative;
+}
+
+.tBtn{
+	width:102px;
+	height: 39px;
+	background: url(../images/common/btn_go_top.png) no-repeat;
+	position: absolute;
+	left: 50%;
+	margin-left: -51px;
+	top:-39px;
+	text-align: center;
+	line-height: 39px;
+	font-size: 13px;
+}
+.tBtn a{
+	color: #646464;
+}
+
+.fTop{
+	background: #282828;
+	
+}
+.fTop dl{
+	float: left;
+	color: #646464;
+	margin-right: 25px;
+}
+.fTop dt{
+	font-size: 16px;
+	font-weight: 700;
+	background: url(../images/common/bar_snb.gif) no-repeat left bottom;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.fTop dd{
+	line-height: 22px;
+}
+.fTop dd a{
+	color: #646464;
+	/*margin-left:0 또는 default에 마진 0으로 설정*/
+}
+
+.fBtom{
+	padding:50px 0;
+	color: #8c8c8c;
+	position: relative;
+}
+
+.fLogo{
+	width:180px;
+	margin-bottom: 15px;
+}
+.fLogo img{
+	width:100%;
+}
+
+.fInfo{
+	
+}
+.fInfo a{
+	color: #8c8c8c;
+}
+.fInfo span:after{
+	content: "";
+	display: inline-block;
+	width:1px;
+	height:8px;
+	background: #8c8c8c;
+	margin: 0 5px;
+	
+}
+.fInfo span:last-child:after{
+	display: none;
+}
+
+.copy{
+	margin-top: 30px;
+}
+
+.fSns{
+	position: absolute;
+	right: 0;
+	top:50px;;
+}
+.fSns li{
+	float: left;
+	width:30px;
+	margin-left: 5px;
+}
+.fSns li a{}
+.fSns li img{
+	width:100%;
+}

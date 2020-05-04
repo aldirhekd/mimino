@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+body{
+	margin: 0;
+}
+
+ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+
+.mainB .slick-slide{
+	height: 650px;
+	position: relative;			
+	overflow: hidden;			/*이걸 해 줘야 넘치지 않고 창 크기에 맞게 슬라이드가 돌아간다*/
+}
+
+.mainB img{
+	position: absolute;
+	left:50%;
+	margin-left: -960px;
+}
+
+.arrow{
+	position: absolute;
+	display: block;
+	width:25px;
+	height: 45px;
+	z-index: 1;
+	top:50%;
+	margin-top:-23px;
+}
+.arrow.fa-angle-double-left{
+	left:30px;
+}
+.arrow.fa-angle-double-right{
+	right:30px;
+}
+
+.prevBtn{}
+
+.nextBtn{}
+
+/*
+.mainB .slick-dots li{
+	float: left;
+	border: 1px solid #000;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	margin: 0 3px;
+	text-indent:-9999px;
+	cursor: pointer;
+}
+*/
+.mainB .slick-dots{
+	position:absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 30px;
+	
+}
+.mainB .slick-dots li{
+	float: left;
+	border: 1px solid #000;
+	width: 30px;
+	height: 3px;
+	margin: 0 3px;
+	text-indent:-9999px;
+	cursor: pointer;
+	
+}
+.mainB .slick-dots .slick-active{
+	background: #000;
+}
+
+.mainB .slick-dots button{
+	border: 0;
+	background: none;
+}
+
+..mainB .slick-dots{
+	position: absolute;
+}
+
+

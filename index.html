@@ -1,0 +1,426 @@
+<!doctype html>
+
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>Cafebene</title>										<!--브라우저 탭에 적히는 이름-->
+        <link rel="stylesheet" type="text/css" href="css/default.css">
+        <link rel="stylesheet" type="text/css" href="css/include.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+		<link rel="shortcut icon" href="favicon_cafebene.ico">		<!--favicon쓰는 방법. png파일을 32x32로 만들어서 .ico로 변환한 뒤
+																	적용. index.html과 같은 위치에 두고 link rel을 사용해서 붙여넣는다.
+																	다른 브라우저에서 나오지 않을 수 있으니 다른 브라우저용 link rel도 써준다.-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.0/css/all.css">
+		<link rel="stylesheet" type="text/css" href="css/slick.css">		<!--원래 라이브러리가 위에 있어야 함.-->
+		<link rel="stylesheet" type="text/css" href="css/style.css">		<!--커스텀 할 아이가 밑에 있어야 함.-->
+		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+																			
+		<script src="js/slick.min.js" type="text/javascript"></script>		<!--js안에 있는 슬릭 연결-->
+		<script type="text/javascript">																
+		$(document).on('ready', function() {
+			$(".mainB").slick({
+				dots:true,
+				arrows:true,
+				prevArrow:'<i class="arrow fas fa-angle-double-left"></i>',
+				nextArrow:'<i class="arrow fas fa-angle-double-right"></i>',
+				autoplay:true,
+				autoplaySpeed:2000,
+				slidesToShow: 1,
+  				slidesToScroll: 1,
+			});					/*하나를 보여주고, 하나를 넘길거야-라는 의미*/
+
+		});
+		</script>
+		
+		
+	</head> 
+	
+	<body>
+		<!--entire-->
+		<div id="wrap">
+			
+			<!--header-->
+			<header id="header">
+				
+				<!--header Top-->
+				<div class="hTop">
+					<div class="inner cf">
+						<!--language-->
+						<div class="lang">					<!--하나니까 div하나로 짜도 괜찮아-->
+							<a href="#">ENGLISH</a>
+						</div>
+						<!--language-->		
+
+						<!--util-->		
+						<ul class="util">
+							<li><a href="#">login</a></li>
+							<li><a href="#">my membership</a></li>
+							<li><a href="#">c/s center</a></li>
+							<li><a href="#">find a store<img src="images/common/ico_find_store.gif" alt="magnifier"></a></li>
+						</ul>
+						<!--util-->	
+					</div>
+				</div>
+				<!--header Top-->
+				
+				
+				
+				<!--header Bottom-->
+				<div class="hBtm inner cf">
+					<!--logo-->
+					<h1><a href="#">logo</a></h1>
+					<!--logo-->
+
+					<!--gnb-->
+					<ul class="gnb">
+						<li><a href="#">caffebene</a></li>
+						<li><a href="#">menu</a></li>
+						<li><a href="#">community</a></li>
+						<li><a href="#">membership</a></li>
+						<li><a href="#">store</a></li>
+						<li><a href="#">franchise</a></li>
+					</ul>
+					<!--gnb-->					
+				</div>							
+				<!--header Bottom-->
+				
+			</header>
+			<!--header-->
+		
+		</div>		
+		<!--entire-->	
+		
+		
+		
+		<!--container-->
+		<div id="container">
+			<!--main banner-->
+			<div class="mainB">
+				<div>
+					<img src="images/main/Main.jpg">
+				</div>
+				<div>
+					<img src="images/main/Main2.jpg">
+				</div>
+			</div>
+			<!--main banner-->
+			
+			<!--main Con 01-->
+			<div class="mainCon01">
+				<!--con01 Left-->
+				<div class="con01 con01L">
+					<h2>enjoy the <span>caffe bene</span></h2>
+					<p>we will invite u to cafebene.</p>
+									
+				</div>
+				<!--con01 Left-->
+				
+				<!--con01 Right-->
+				<div class="con01 con01R">
+					<p>
+						<span>we will invite u to cafebene.</span>
+						<span>we will invite u to,</span>
+						<span>cafebene cafebene cafebene.</span>
+					</p>	
+					<div class="moreBtn"><a href="#"><img src="images/main/btn_more02.png" alt="more button"></a></div>
+				</div>
+				<!--con01 Right-->
+				
+			</div>
+			
+			<!--main Con 01-->
+				
+				
+			<!--main Con 02-->
+			<div class="mainCon02">	
+				<h2>Principle with Coffee Bean</h2>
+				<h4>roasting, blending</h4>
+				<p>
+					<span>ethiopia blah blaaah lahlahlahlahlahlahlahlahlah</span>
+					<span>ethiopia blah blaaah lahlahlahlahlahlah</span>
+					<span>ethiopia blah blaaah lahlahlahlahlahlah</span>
+				</p>
+				<div class="moreBtn">
+					<a href="#"><img src="images/main/btn_more.png"></a>
+				</div>			
+			</div>
+			<!--main Con 02-->
+			
+			<!--main Con 03-->
+			<div class="mainCon03">
+				<h2>Delicious Journey</h2>
+				<p>we invite you to delicous journey.</p>
+				
+				<!--con03-->
+				<ul class="con03 inner cf">
+					<li class="con0301">
+						<a href="#">
+							<img src="images/main/menu_link01.jpg" alt="menu1">
+							<div class="con03T1">
+								<h4>coffee</h4>
+								<p>special time with coffee</p>
+							</div>
+						</a>							
+					</li>
+					
+					<li class="con0301">
+						<a href="#">
+							<img src="images/main/menu_link02.jpg" alt="menu1">
+							<div class="con03T1">
+								<h4>coffee</h4>
+								<p>special time with coffee</p>
+							</div>
+						</a>							
+					</li>
+					
+					<li class="con0301">
+						<a href="#">
+							<img src="images/main/menu_link03.jpg" alt="menu1">
+							<div class="con03T1">
+								<h4>coffee</h4>
+								<p>special time with coffee</p>
+							</div>
+						</a>							
+					</li>
+					
+					<li class="con0301">
+						<a href="#">
+							<img src="images/main/menu_link04.jpg" alt="menu1">
+							<div class="con03T1">
+								<h4>coffee</h4>
+								<p>special time with coffee</p>
+							</div>
+						</a>							
+					</li>
+					
+					<li class="con0301">
+						<a href="#">
+							<img src="images/main/menu_link05.jpg" alt="menu1">
+							<div class="con03T1">
+								<h4>coffee</h4>
+								<p>special time with coffee</p>
+							</div>
+						</a>							
+					</li>				
+				</ul>
+				
+				<!--con03-->
+			
+			</div>
+			<!--main Con 04-->
+			<div class="mainCon02 mainCon04">	
+				<h2>Principle with Coffee Bean</h2>
+				<h4>roasting, blending</h4>
+				<p>
+					<span>ethiopia blah blaaah lahlahlahlahlahlahlahlahlah</span>
+					<span>ethiopia blah blaaah lahlahlahlahlahlah</span>					
+				</p>
+				
+				<div class="findBtn">
+					<a href="#"><img src="images/main/btn_find_store.png"></a>
+				</div>
+			</div>
+			
+			<!--main Con 04-->
+			
+			
+			<!--main Con 05-->
+			<div class="mainCon05">
+				<span class="con05Tit">Ethiiopia blah blaaah</span>
+				<span>lahlahlahlahlahlah </span>
+				<span class="con05Btn"><a href="#"><img src="images/main/btn_more02.png"></a></span>				
+			</div>
+			<!--main Con 05-->
+			
+			
+			<!--main Con 06-->
+			<div class="mainCon06">
+				<div class="inner cf">
+					<div class="national">						
+							<h4><img src="images/main/ico_kor.png" alt="korea">
+								etc</h4>			<!--h태그는 블락이니까 뒤에 span으로 감싸지 않아도 알아서 아래로 떨어지게된다.-->
+							EMail. franchise@caffebene.co.kr 82-2-3438-1464 (Korea)
+						
+					</div>
+					
+					<div class="national">
+						
+							<h4><img src="images/main/ico_jpn.png" alt="japan">
+								Caffe Bene in Japan</h4>
+							4F, MMC Second Bldg, 6-10, Kinko-cho,Kanagawaku, Yokohama, JAPAN
+						
+					</div>
+					
+					<div class="national">
+						
+							<h4><img src="images/main/ico_tai.png" alt="taiwan">
+								Caffe Bene in Taiwan</h4>
+							11F.-5, No.1, Fuxing N. Rd., Songshan Dist., Taipei City 105, Taiwan (R.O.C.)
+						
+					</div>
+					
+					<div class="national">						
+							<h4><img src="images/main/ico_kor.png" alt="korea">
+								etc</h4>			<!--h태그는 블락이니까 뒤에 span으로 감싸지 않아도 알아서 아래로 떨어지게된다.-->
+							EMail. franchise@caffebene.co.kr 82-2-3438-1464 (Korea)
+						
+					</div>
+					
+					<div class="national">
+						
+							<h4><img src="images/main/ico_jpn.png" alt="japan">
+								Caffe Bene in Japan</h4>
+							4F, MMC Second Bldg, 6-10, Kinko-cho,Kanagawaku, Yokohama, JAPAN
+						
+					</div>
+					
+					<div class="national">
+						
+							<h4><img src="images/main/ico_tai.png" alt="taiwan">
+								Caffe Bene in Taiwan</h4>
+							11F.-5, No.1, Fuxing N. Rd., Songshan Dist., Taipei City 105, Taiwan (R.O.C.)
+						
+					</div>
+					
+					<div class="national">						
+							<h4><img src="images/main/ico_kor.png" alt="korea">
+								etc</h4>			<!--h태그는 블락이니까 뒤에 span으로 감싸지 않아도 알아서 아래로 떨어지게된다.-->
+							EMail. franchise@caffebene.co.kr 82-2-3438-1464 (Korea)
+						
+					</div>
+					
+					<div class="national">
+						
+							<h4><img src="images/main/ico_jpn.png" alt="japan">
+								Caffe Bene in Japan</h4>
+							4F, MMC Second Bldg, 6-10, Kinko-cho,Kanagawaku, Yokohama, JAPAN
+						
+					</div>
+					
+					<div class="national">
+						
+							<h4><img src="images/main/ico_tai.png" alt="taiwan">
+								Caffe Bene in Taiwan</h4>
+							11F.-5, No.1, Fuxing N. Rd., Songshan Dist., Taipei City 105, Taiwan (R.O.C.)
+						
+					</div>
+					
+					<div class="national">
+						
+							<h4><img src="images/main/ico_jpn.png" alt="japan">
+								Caffe Bene in Japan</h4>
+							4F, MMC Second Bldg, 6-10, Kinko-cho,Kanagawaku, Yokohama, JAPAN
+						
+					</div>
+					
+					<div class="national">
+						
+							<h4><img src="images/main/ico_tai.png" alt="taiwan">
+								Caffe Bene in Taiwan</h4>
+							11F.-5, No.1, Fuxing N. Rd., Songshan Dist., Taipei City 105, Taiwan (R.O.C.)
+						
+					</div>
+					
+					<div class="national">						
+							<h4><img src="images/main/ico_kor.png" alt="korea">
+								etc</h4>			<!--h태그는 블락이니까 뒤에 span으로 감싸지 않아도 알아서 아래로 떨어지게된다.-->
+							EMail. franchise@caffebene.co.kr 82-2-3438-1464 (Korea)
+						
+					</div>
+					
+					
+				</div>
+			
+			</div>			
+			<!--main Con 06-->
+			
+			<!--footer-->
+			<footer id="footer">
+				<!--fTop-->
+				<div class="fTop">
+					<!--go to top-->
+					<div class="tBtn">
+						<a href="#">TOP</a>
+					</div>
+					<!--go to top-->
+					<div class="inner cf">
+						<!--fmenu-->
+						<dl>
+							<dt>company</dt>
+							<dd><a href="#">aawsfawetg</a></dd>
+							<dd><a href="#">aawsfawetg</a></dd>
+							<dd><a href="#">aawsfawetg</a></dd>
+							<dd><a href="#">aawsfawetg</a></dd>
+							<dd><a href="#">aawsfawetg</a></dd>							
+						</dl>
+						
+						<dl>
+							<dt>contribution</dt>
+							<dd><a href="#">aawsfawetg</a></dd>
+							<dd><a href="#">aawsfawetg</a></dd>
+							<dd><a href="#">aawsfawetg</a></dd>
+													
+						</dl>
+						
+						<dl>
+							<dt>sns</dt>
+							<dd><a href="#">aawsfawetg</a></dd>
+							
+							<dd><a href="#">aawsfawetg</a></dd>							
+						</dl>
+						<!--fmenu-->
+					</div>
+				</div>
+				<!--fTop-->
+				
+				<!--fBottom-->
+				<div class="fBtom inner">
+					<!--fLogo-->
+					<div class="fLogo">
+						<a href="#"><img src="images/common/logo_foot.gif"></a>
+					</div>
+					<!--fLogo-->
+					<!--fInfo-->
+					<div class="fInfo">
+						<span><a href="#">privacy policy</a></span>
+						<span><a href="#">join</a></span>
+						<span><a href="#">customer service</a></span>
+						<span><a>tell 1688-4666</a></span>
+					</div>
+					<!--fInfo-->
+					<!--fInfo2-->
+					<div class="fInfo">
+						<span>privacy policy</span>
+						<span>privacy policy</span>
+						<span>privacy policy</span>
+						<span>privacy policy</span>
+						<span>privacy policy</span>						
+					</div>
+					<!--fInfo2-->
+					<!--fInfo3-->
+					<p class="copy">copyright &copy;</p>
+					<!--fInfo3-->
+					
+					<!--fSns-->
+					<ul class="fSns">
+						<li><a href="#"><img src="images/common/foot_sns_face.gif"></a></li>
+						<li><a href="#"><img src="images/common/foot_sns_insta.gif"></a></li>
+						<li><a href="#"><img src="images/common/00.png"></a></li>
+					</ul>
+					<!--fSns-->
+				</div>
+				
+				<!--fBottom-->
+				
+				
+			
+			</footer>
+			<!--footer-->
+							
+		</div>				
+		<!--container-->
+		
+	</body>
+</html>	
+	
